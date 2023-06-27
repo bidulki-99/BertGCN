@@ -1,0 +1,11 @@
+arguments:
+Namespace(batch_size=64, bert_init='roberta-base', bert_lr=1e-05, checkpoint_dir=None, dataset='R8', dropout=0.5, gcn_layers=2, gcn_lr=0.001, gcn_model='gcn', heads=8, m=0.7, max_length=128, n_hidden=200, nb_epochs=50, pretrained_bert_ckpt=None)
+checkpoints will be saved in ./checkpoint/roberta-base_gcn_R8
+graph information:
+Graph(num_nodes=15362, num_edges=660930,
+      ndata_schemes={'input_ids': Scheme(shape=(128,), dtype=torch.int64), 'attention_mask': Scheme(shape=(128,), dtype=torch.int64), 'label': Scheme(shape=(), dtype=torch.int64), 'train': Scheme(shape=(), dtype=torch.float32), 'val': Scheme(shape=(), dtype=torch.float32), 'test': Scheme(shape=(), dtype=torch.float32), 'label_train': Scheme(shape=(), dtype=torch.int64), 'cls_feats': Scheme(shape=(768,), dtype=torch.float32)}
+      edata_schemes={'edge_weight': Scheme(shape=(), dtype=torch.float32)})
+Epoch: 1  Train acc: 0.8333 loss: 0.5047  Val acc: 0.8321 loss: 0.5238  Test acc: 0.8639 loss: 0.4754
+New checkpoint
+Epoch: 2  Train acc: 0.9396 loss: 0.2588  Val acc: 0.9270 loss: 0.2788  Test acc: 0.9461 loss: 0.2585
+New checkpoint
