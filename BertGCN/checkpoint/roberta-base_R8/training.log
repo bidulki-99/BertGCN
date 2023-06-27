@@ -1,5 +1,0 @@
-arguments:
-Namespace(batch_size=64, bert_init='roberta-base', bert_lr=0.0001, checkpoint_dir=None, dataset='R8', max_length=128, nb_epochs=60)
-checkpoints will be saved in ./checkpoint/roberta-base_R8
-Epoch: 1  Train acc: 0.5177 loss: 1.3348  Val acc: 0.5182 loss: 1.3883  Test acc: 0.4947 loss: 1.3378
-New checkpoint
