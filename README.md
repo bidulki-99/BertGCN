@@ -5,4 +5,4 @@ This repo contains code for [BertGCN: Transductive Text Classification by Combin
 
 ![image](https://github.com/bidulki-99/BertGCN/assets/97289852/e1fa8064-7952-4346-9fa8-95a6e25caec5)
 
-![image](https://github.com/bidulki-99/BertGCN/assets/97289852/7899a61a-f684-430c-935d-fcda6ad4a7d9)
+![image](https://github.com/bidulki-99/BertGCN/assets/97289852/461103f8-28f7-46a5-8cb2-52edce40a586)
